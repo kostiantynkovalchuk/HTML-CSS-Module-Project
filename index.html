@@ -1,19 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>Karma</title>
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,500,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+  </head>
 
-    <!-- Add your HTML markup here -->
-    <!-- Remember: Use semantic HTML tags like <header>, <main>, <nav>, <footer>, <section> etc -->
-    <!-- All the images you need are in the 'img' folder -->
+  <body>
+    <!--Navigation Bar-->
 
-</body>
+    <header>
+      <nav class="container">
+        <div class="logo">
+          <img src="/img/karma-logo.svg" alt="karma logo" />
+        </div>
+        <div><a href="meet-karma.html">Meet Karma</a></div>
+        <div><a href="how-it-works.html">How it works</a></div>
+        <div><a href="store.html">Store</a></div>
+        <div><a href="blog.html">Blog</a></div>
+        <div><a href="help.html">Help</a></div>
+        <div><a href="login.html">Login</a></div>
+      </nav>
+    </header>
+
+    <!--Hero section-->
+
+    <hero>
+      <div class="hero-image">
+        <img
+          src="img/first-background.jpg"
+          alt="person behind the desk with gadgets"
+        />
+        <h2>Introducing Karma</h2>
+        <p>Bring WiFi with you, everywhere you go.</p>
+        <button>Learn more</button>
+      </div>
+    </hero>
+
+    <!--Features section-->
+
+    <section>
+      <h2>Everyone needs a little Karma.</h2>
+
+      <div class="columns">
+        <!--Columns start-->
+
+        <div class="column1">
+          <img src="img/icon-devices.svg" alt="different devices" />
+          <p>Internet for all devices</p>
+        </div>
+
+        <div class="column2">
+          <img src="img/icon-coffee.svg" alt="coffee icon" />
+          <p>Boost your productivity</p>
+        </div>
+
+        <div class="column3">
+          <img src="img/icon-refill.svg" alt="fuel refill icon" />
+          <p>Pay as You Go</p>
+        </div>
+      </div>
+      <!--Columns end-->
+    </section>
+
+    <!--Footer: social media icons-->
+
+    <footer>
+      <h4>Join us on</h4>
+
+      <div class="social-media-container">
+        <img src="img/twitter-icon.svg" alt="twitter icon" />
+        <img src="img/facebook-icon.svg" alt="facebook-icon" />
+        <img src="img/instagram-icon.svg" alt="instagram icon" />
+      </div>
+    </footer>
+  </body>
 </html>
