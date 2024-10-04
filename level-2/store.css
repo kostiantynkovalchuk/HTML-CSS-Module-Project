@@ -1,4 +1,9 @@
 /* Store Form Styles */
+
+.karma-logo img {
+  height: 40px;
+}
+
 .store-form-container {
   display: flex;
   justify-content: space-between;
@@ -94,3 +99,7 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
   max-width: 100%;
   height: auto;
 }
+
+.social-media-icons img {
+  margin: 0 10px;
+  width: 30px;

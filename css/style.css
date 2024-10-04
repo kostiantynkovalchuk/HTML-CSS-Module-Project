@@ -56,7 +56,7 @@ header {
   margin: 20px 0;
 }
 
-.hero-content button {
+.hero-button {
   padding: 10px 30px;
   background-color: #f15a22;
   color: #fff;
@@ -65,7 +65,7 @@ header {
   cursor: pointer;
 }
 
-.hero-content button:hover {
+.hero-button :hover {
   background-color: #e14e1b;
 }
 
