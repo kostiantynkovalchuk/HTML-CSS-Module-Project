@@ -103,3 +103,4 @@ input[type="checkbox"]:checked + .custom-checkbox::after {
 .social-media-icons img {
   margin: 0 10px;
   width: 30px;
+}

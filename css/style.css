@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Basic body styling */
 body {
   font-family: "Roboto", sans-serif;
@@ -119,4 +120,147 @@ footer p {
   margin-top: 20px;
   font-size: 14px;
   color: #888;
+=======
+/* We are using the 'Roboto' font from Google. This has already been added to your HTML header */
+
+/**
+ * Add your custom styles below
+ * 
+ * Remember: 
+ * - Be organized, use comments and separate your styles into meaningful chunks
+ *    for example: General styles, Navigation styles, Hero styles, Footer etc.
+ * 
+ * - When using Flexbox, remember the items you want to move around need to be inside a parent container set to 'display: flex'
+ */
+
+/* General styles */
+
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 5em;
+  align-items: center;
+}
+
+.logo img {
+  width: 3em;
+}
+
+/* Navigation Styles */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav div a {
+  margin-left: 2em;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+nav div a:hover {
+  color: #ff6f61;
+}
+
+/* Hero Section Styles */
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+.hero-image h2 {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  color: white;
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.hero-image p {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  color: white;
+  font-size: 1.2em;
+}
+
+.hero-image button {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  background-color: #ff6f61;
+  color: white;
+  padding: 1em 2em;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.hero-image button:hover {
+  background-color: #ff5a45;
+}
+
+/* Features Section */
+section {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0 5em;
+}
+
+.column1,
+.column2,
+.column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.column1 img,
+.column2 img,
+.column3 img {
+  width: 5em;
+  margin-bottom: 1em;
+}
+
+.columns p {
+  font-size: 1.2em;
+  margin-top: 1em;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 2em;
+  background-color: #f5f5f5;
+}
+
+footer h4 {
+  margin-bottom: 1em;
+}
+
+.social-media-container img {
+  width: 2em;
+  margin: 0 1em;
+>>>>>>> master
 }
