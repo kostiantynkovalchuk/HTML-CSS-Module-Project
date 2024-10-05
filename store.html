@@ -4,30 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Karma Store</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <!-- Link store specific styles -->
-    <link rel="stylesheet" href="store.css" />
+    <link rel="stylesheet" href="level-2/store.css" />
   </head>
   <body>
     <!-- Header Navigation -->
     <header>
-      <nav class="container">
-        <div class="logo">
-          <a href="index.html"
-            ><img src="/img/karma-logo.svg" alt="Karma Logo"
-          /></a>
-        </div>
-        <div>
-          <a href="index.html">Meet Karma</a>
-          <a href="store.html">Store</a>
-          <a href="#">How it Works</a>
-          <a href="#">Blog</a>
-          <a href="#">Help</a>
-          <a href="#">Login</a>
-        </div>
+      <div class="karma-logo">
+        <img src="img/karma-logo.svg" alt="Karma Logo" />
+      </div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="index.html">Meet Karma</a></li>
+          <li><a href="#">How it Works</a></li>
+          <li><a href="store.html">Store</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Help</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
       </nav>
     </header>
-
     <!-- Store Section -->
     <section class="store-form-container">
       <div class="order-form">
@@ -100,10 +98,11 @@
 
     <!-- Footer -->
     <footer>
-      <div class="social-media-container">
-        <a href="#"><img src="/img/twitter-icon.svg" alt="Twitter" /></a>
-        <a href="#"><img src="/img/facebook-icon.svg" alt="Facebook" /></a>
-        <a href="#"><img src="/img/instagram-icon.svg" alt="Instagram" /></a>
+      <h5>Join us on</h5>
+      <div class="social-media-icons">
+        <a href="#"><img src="img/twitter-icon.svg" alt="Twitter" /></a>
+        <a href="#"><img src="img/facebook-icon.svg" alt="Facebook" /></a>
+        <a href="#"><img src="img/instagram-icon.svg" alt="Instagram" /></a>
       </div>
       <p>&copy; Karma Mobility, Inc.</p>
     </footer>
